@@ -1,0 +1,75 @@
+body {
+    background-color: #f1f0f0;
+  }
+.card {
+    background-color: #fff;
+    border: 0 solid transparent;
+    border-radius: 4px;
+  }
+.footer__links > h5{
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+.footer__links > a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    display: block;
+  }
+.footer__links > a:hover {
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    transition: .5s;
+  }
+.subscribe > h5{
+    font-size: 25px;
+    padding: 15px 20px 5px 20px;
+    color: white;
+  }
+.subs__input{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #333;
+    outline: none;
+    background-color: #333;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    margin-left: 15px;
+  }
+.subscribe > button {
+  width: fit-content;
+  margin-left: 15px;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 30%;
+  }
+.icons > h5{
+    font-size: 25px;
+    color: white;
+  }
+.fa{
+    font-size: 30px !important;
+    color: #fff;
+    width: 20%;
+    padding-left: 10px;
+  }
+.fa:hover{
+    background-color: #333;
+    color: #333;
+    font-size: 33px !important;
+    transition: .5s;
+    cursor: pointer;
+  }
